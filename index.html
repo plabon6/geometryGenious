@@ -23,18 +23,20 @@
             <h3>Triangle</h3>
             <p>Area (A) = 0.5 × b × h</p>
             <div class="inputField">
-                <input type="number" name="number" id="tringleA"> <span>cm</span> <input type="number" name="number" id="tringleB"> <span>cm</span>
+                <input type="number" name="number" id="triangleA"> <span>cm</span>
+                <input type="number" name="number" id="triangleB"> <span>cm</span>
             </div>
-            <button id="triangleCalc" onclick="multi()">Calculate</button>
+            <button id="triangle" onclick="calculate(id)">Calculate</button>
         </div>
         <div class="card">
             <img src="./Images/Rectangle 9-1.png" alt="Triangle Image">
             <h3>Rectangle</h3>
             <p>Area (A) = w × I</p>
             <div class="inputField">
-                <input type="number" name="number" id=""> <span>cm</span> <input type="number" name="number" id=""> <span>cm</span>
+                <input type="number" name="number" id="rectangleA"> <span>cm</span>
+                <input type="number" name="number" id="rectangleB"> <span>cm</span>
             </div>
-            <button>Calculate</button>
+            <button id="rectangle" onclick="calculate(id)">Calculate</button>
         </div>
         <div class="card">
             <img src="./Images/Rectangle 10.png" alt="Triangle Image">
@@ -74,9 +76,9 @@
         </div>
         <div class="areaCalc">
             <h3>Area Calculation</h3>
-            <div id="result">
+        <ol id="result">
 
-            </div>
+        </ol>
         </div>
     </main>
 

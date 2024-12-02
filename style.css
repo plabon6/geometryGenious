@@ -3,6 +3,8 @@
     --grey-color: #8d8d8d;
     --light-blue: #e7f4fb;
     --dark-blue: #1090D8;
+    --darker-blue: #015c91;
+    --darkest-blue: #013a5c;
     --border-color: #dadada;
     --pink-color: #FBBCED;
 }
@@ -98,8 +100,15 @@ main{
     border-radius: 5px;
 }
 
+.card button:hover{
+    background-color: var(--darker-blue);
+}
+
+.card button:active{
+    background-color: var(--darkest-blue);
+}
+
 .areaCalc{
-    text-decoration: underline;
     width: auto;
     grid-row: 1 / span 2;
     grid-column: 4;
@@ -110,6 +119,7 @@ main{
 
 .areaCalc h3{
     text-align: center;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 1280px){
