@@ -1,0 +1,114 @@
+:root{
+    --primary-color: #111111;
+    --grey-color: #8d8d8d;
+    --light-blue: #e7f4fb;
+    --dark-blue: #1090D8;
+    --border-color: #dadada;
+    --pink-color: #FBBCED;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    padding: 20px;
+}
+
+h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--light-blue);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+header h1{
+    font-size: 25px;
+}
+header h2{
+    font-size: 16px;
+    color: var(--grey-color);
+    font-weight: 500;
+}
+
+header button{
+    height: max-content;
+    background-color: var(--dark-blue);
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+main{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    row-gap: 20px;
+    justify-content: space-between;
+}
+
+.card{
+    width: 250px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    row-gap: 20px;
+    color: var(--primary-color);
+    font-size: 12px;
+}
+
+.card img{
+    max-width: 150px;
+}
+
+.card h3{
+    font-size: 14px;
+}
+
+.inputField{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.inputField input{
+    width: 50px;
+}
+
+.card button{
+    width: 100%;
+    background-color: var(--dark-blue);
+    color: white;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.areaCalc{
+    text-decoration: underline;
+    width: 250px;
+    grid-row: 1 / span 2;
+    grid-column: 4;
+    padding: 30px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.areaCalc h3{
+    text-align: center;
+}

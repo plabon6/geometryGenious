@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genious</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="lefthead">
+            <h1>Interactive</h1>
+            <h2>Geometry Genius</h2>
+        </div>
+        <button>Blog</button>
+    </header>
+    <main>
+        <div class="card">
+            <img src="./Images/Polygon 1.png" alt="Triangle Image">
+            <h3>Triangle</h3>
+            <p>Area (A) = 0.5 × b × h</p>
+            <div class="inputField">
+                <input type="number" name="number" id="tringleA"> <span>cm</span> <input type="number" name="number" id="tringleB"> <span>cm</span>
+            </div>
+            <button id="triangleCalc" onclick="multi()">Calculate</button>
+        </div>
+        <div class="card">
+            <img src="./Images/Rectangle 9-1.png" alt="Triangle Image">
+            <h3>Rectangle</h3>
+            <p>Area (A) = w × I</p>
+            <div class="inputField">
+                <input type="number" name="number" id=""> <span>cm</span> <input type="number" name="number" id=""> <span>cm</span>
+            </div>
+            <button>Calculate</button>
+        </div>
+        <div class="card">
+            <img src="./Images/Rectangle 10.png" alt="Triangle Image">
+            <h3>Parallelogram</h3>
+            <p>Area (A) = 0.5 × b × h</p>
+            <div class="inputField">
+                <input type="number" name="number" id=""> <span>cm</span> <input type="number" name="number" id=""> <span>cm</span>
+            </div>
+            <button>Calculate</button>
+        </div>
+        <div class="card">
+            <img src="./Images/Rectangle 11.png" alt="Triangle Image">
+            <h3>Rhombus</h3>
+            <p>Area (A) = 0.5 × b × h</p>
+            <div class="inputField">
+                <input type="number" name="number" id=""> <span>cm</span> <input type="number" name="number" id=""> <span>cm</span>
+            </div>
+            <button>Calculate</button>
+        </div>
+        <div class="card">
+            <img src="./Images/Rectangle 9.png" alt="Triangle Image">
+            <h3>Pentagon</h3>
+            <p>Area (A) = 0.5 × b × h</p>
+            <div class="inputField">
+                <input type="number" name="number" id=""> <span>cm</span> <input type="number" name="number" id=""> <span>cm</span>
+            </div>
+            <button>Calculate</button>
+        </div>
+        <div class="card">
+            <img src="./Images/Ellipse 1.png" alt="Triangle Image">
+            <h3>Ellipse</h3>
+            <p>Area (A) = 0.5 × b × h</p>
+            <div class="inputField">
+                <input type="number" name="number" id=""> <span>cm</span> <input type="number" name="number" id=""> <span>cm</span>
+            </div>
+            <button>Calculate</button>
+        </div>
+        <div class="areaCalc">
+            <h3>Area Calculation</h3>
+            <div id="result">
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
